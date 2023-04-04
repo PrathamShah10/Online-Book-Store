@@ -23,9 +23,9 @@ const Book = (props) => {
       <Button LinkComponent={Link} to={`/books/${_id}`} sx={{ mt: "auto" }}>
         Update
       </Button>
-      <Button color="error" onClick={deleteHandler} sx={{ mt: "auto" }}>
+      {/* <Button color="error" onClick={deleteHandler} sx={{ mt: "auto" }}>
         Delete
-      </Button>
+      </Button> */}
     </div>
   );
 };
